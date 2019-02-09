@@ -1,7 +1,7 @@
-const pkg = require('./package')
+const pkg = require('./package');
 
 
-const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = {
   mode: 'universal',
@@ -50,8 +50,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
@@ -79,4 +78,4 @@ module.exports = {
       
     }
   }
-}
+};
